@@ -1,0 +1,97 @@
+@media (max-width: 576px) { 
+#col-header-description {
+    margin-top: -5px;
+}
+.img-carousel {
+    min-height: 300px;
+    max-height: 300px;
+}
+#h1-carousel {
+    display: none;
+    font-size: 15px;
+    color: white;
+}
+#h2-carousel {
+    
+    display: none;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+#col-header-description {
+           margin-top: -5px;
+}
+.img-carousel {
+    min-height: 400px;
+    max-height: 400px;
+}
+#h1-carousel {
+    display: none;
+    font-size: 25px;
+    color: white;
+}
+#h2-carousel {
+    
+    display: none;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    #col-header-description {
+        margin-left: 5%;
+        margin-top: 50px;
+        width: 100%;
+        
+        
+}
+      #logo {
+          margin-top: 50px;
+          transform: scale(1.4);
+          margin-left: 55%;
+      }
+    .img-carousel {
+        min-height: 500px;
+        max-height: 500px;
+    }
+    #h1-carousel {
+        display: none;
+        position: absolute;
+        bottom: 200px;
+        left: 50px;
+        margin-left: -50px;
+        font-size: 75px;
+        color: white;
+    }
+    #h2-carousel {
+        display: none;
+        position: absolute;
+        bottom: 60px;
+       margin-left: -55px;
+        text-align: left;
+        font-size: 55px;
+        color: white;
+    }
+    .edit1 {
+        margin-left: 150px;
+    }
+}
+@media  (min-width: 992px) and (min-width: 1200px) { 
+    #logo {
+       margin-top: 15%;
+        transform: scale(1.2);
+       
+    }
+    #col-header-description {
+     margin-top: 300px;
+     transform: scale(1);
+        
+        
+        
+}
+}
